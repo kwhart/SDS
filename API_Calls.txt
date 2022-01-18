@@ -1,0 +1,50 @@
+Summary from Tom
+
+// Reading stored events
+GET /Tenants/{tenantId}/Namespaces/{namespaceId}/Streams/{streamId}/Data
+GET /Tenants/{tenantId}/Namespaces/{namespaceId}/Streams/{streamId}/Data/First
+GET /Tenants/{tenantId}/Namespaces/{namespaceId}/Streams/{streamId}/Data/Last
+ 
+// Writing events
+POST /Tenants/{tenantId}/Namespaces/{namespaceId}/Streams/{streamId}/Data
+PUT /Tenants/{tenantId}/Namespaces/{namespaceId}/Streams/{streamId}/Data
+PATCH /Tenants/{tenantId}/Namespaces/{namespaceId}/Streams/{streamId}/Data
+DELETE /Tenants/{tenantId}/Namespaces/{namespaceId}/Streams/{streamId}/Data
+ 
+// Interpolated reads
+GET /Tenants/{tenantId}/Namespaces/{namespaceId}/Streams/{streamId}/Data/Interpolated
+ 
+// Transformed stored events read
+GET /Tenants/{tenantId}/Namespaces/{namespaceId}/Streams/{streamId}/Data/Transform
+GET /Tenants/{tenantId}/Namespaces/{namespaceId}/Streams/{streamId}/Data/Transform/First
+GET /Tenants/{tenantId}/Namespaces/{namespaceId}/Streams/{streamId}/Data/Transform/Last
+ 
+// Transformed interpolated reads
+GET /Tenants/{tenantId}/Namespaces/{namespaceId}/Streams/{streamId}/Data/Transform/Interpolated
+ 
+// Summary reads, standard & conversion
+GET /Tenants/{tenantId}/Namespaces/{namespaceId}/Streams/{streamId}/Data/Summaries
+GET /Tenants/{tenantId}/Namespaces/{namespaceId}/Streams/{streamId}/Data/Transform/Summaries
+ 
+// Sample Values
+GET /Tenants/{tenantId}/Namespaces/{namespaceId}/Streams/{streamId}/Data/Sampled
+GET /Tenants/{tenantId}/Namespaces/{namespaceId}/Streams/{streamId}/Data/Transform/Sampled
+ 
+3.       Here is a list of the streams and types API
+ 
+// types
+GET /Tenants/{tenantId}/Namespaces/{namespaceId}/Types
+GET /Tenants/{tenantId}/Namespaces/{namespaceId}/Types/{typeId}
+GET /Tenants/{tenantId}/Namespaces/{namespaceId}/Types/{typeId}/ReferenceCount
+POST /Tenants/{tenantId}/Namespaces/{namespaceId}/Types/{typeId}
+DELETE /Tenants/{tenantId}/Namespaces/{namespaceId}/Types/{typeId}
+ 
+// streams
+GET /Tenants/{tenantId}/Namespaces/{namespaceId}/Streams
+GET /Tenants/{tenantId}/Namespaces/{namespaceId}/Streams/{streamId}
+GET /Tenants/{tenantId}/Namespaces/{namespaceId}/Streams/{streamId}/Type
+PUT /Tenants/{tenantId}/Namespaces/{namespaceId}/Streams/{streamId}/Type
+ 
+POST /Tenants/{tenantId}/Namespaces/{namespaceId}/Streams/{streamId}
+PUT /Tenants/{tenantId}/Namespaces/{namespaceId}/Streams/{streamId}
+DELETE /Tenants/{tenantId}/Namespaces/{namespaceId}/Streams/{streamId}

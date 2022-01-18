@@ -1,0 +1,2 @@
+Keep credentials, namespaces, streams and types
+in a text file to copy into API

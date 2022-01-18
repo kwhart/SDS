@@ -1,0 +1,54 @@
+      Setting up the Environment
+    o   Simple tenant management
+    o   Namespaces
+    o   Streams
+    o   Types
+    o   UOMs
+    ·       Ingress and egress via the API portal
+    o   Analyzing raw data in HTTP requests
+    o   Viewing event streams graphically
+    §  Spotting trends and anomalies
+
+    ·       C# examples 
+
+    ·       Use case
+Mike Sloves raised the issue as to why OSI went to SDS vs a Py Azure direction.  He said it will be important for the learner to understand why SDS was developed and to understand how OSI determined its value to prompt its development.
+
+Finally, Mike Sloves asked how things were going and whether anything from their side had been misrepresented. I told him that the challenge for any instructor developing content for an application they had not seen before was to get immersed in it first. I said, frankly, that this has been time consuming because you have experienced some challenges with the documentation and bugs, but that you are making good progress with this now. I said my expectation was that they would be helpful in providing answers/direction rather than you having to do it on your own. Tom once again encouraged you to take advantage of him in this regard stating that you haven’t had much direct communication with him of late.  I told him I believed that was because you are at a point where you have a good handle on the app. They also said they would welcome any feedback you have on the documentation, which they would take back to their team. 
+
+    Overall there was general agreement in the direction the course is taking
+    Tom  that the broader discussion should be around the area of the API and a lighter understanding about things like access control. He said index, strategies, filtering are less important
+    Mike raised the issue as to why OSI went to SDS vs a Py Azure direction.  He said it will be important for the learner to understand why SDS was developed and to understand how OSI determined its value to prompt its development.  This needs to be the initial topic of discussion for the course.
+    Mike asked how things were going and whether anything from their side had been misrepresented. 
+
+    Pete responded by saying the challenge for any instructor developing content for an application they had not seen before was to get immersed in it first. He said this has been time consuming because of somed some challenges with the documentation and bugs, but that Ken is making good progress with this now.Pete further said his expectation was that OSI would be helpful in providing answers/direction rather than Ken having to do it on his own. Tom once again encouraged Ken to take advantage of him in this regard stating that he hasn't had much direct communication with Ken of late. Pete responded by stating he   believed that was because Ken was at a point where he has a good handle on the app. 
+
+    Mike said they would welcome any feedback we have on the documentation, which they would take back to their team. 
+
+    Course length was discussed by Pete and the need to keep topics to a minimum otherwise the course would get too heavy. Pete suggested if approximately 50% of the class time is devoted to lab and use case that presentation slides had to be kept to something like 15-20 since there would be a lot of discussion on talking points.
+    Pete said once we agree on topics, he would formalize it into a document for their approval
+
+Slide deck
+organized ref, as opposed to hyperlink form
+  have the pdf
+single api summary, most sites have
+HISTORY, something more for benefits of  SDS
+using queries and trend analysis
+
+general to specifc
+  ingress 1, 1000 values
+  max size show error 250001 1 over limit
+  begin and end, one, range, filterning mechanism
+interpolate server side
+  max min avg, boundaries of data
+  lots of filtering as use case exercise
+
+slide deck, start with generic
+
+
+USE CASE
+reach out sooner than later
+
+
+
+

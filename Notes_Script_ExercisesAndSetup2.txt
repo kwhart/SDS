@@ -1,0 +1,51 @@
+Create Types
+Add bulk data
+POST, DELETE,PATCH, GET Options
+
+Create Namespace:  id:  SDS_Intro, WestUS
+
+1.  choose ns home for the type
+   right hand side, drop down icon to choose ns
+   
+Define Types:
+GrazingLocation (description: Livestock location events)
+   Time(key):DateTime
+   LivestockId:  Int32, no uom
+   Longitude:Double:degree
+   Latitude:Double:degree
+   Altitude:Double:meters
+   
+GrazingPastureClimateConditions
+time-series, climate conditions at grazing location
+  Time (key): DateTime
+  AnimalId:  Int32
+  Temperature: Double: degrees C
+  AvgWindSpeed: Double:  km/hr or knots
+  Gusts: Double: km/hr or knots (kts)
+  WindDirection:  string
+  AtmPressure: Double: millibar
+  Rainfall: int32: mm
+  RelativeHumidity: Int32: percent
+  ------------------------------------
+  Ranges of data: wind/7-35
+  Wind directions:-30.2916
+  AtmPressure 1005-1017
+Rainfall:  2mm-360mm
+RelativeHumidity:  40-95
+Temperature:  15-27
+LongLat:
+Altitude: 9-30m
+UL  -30.264725,  152.871599
+LL  -30.308602,  152.961300
+LR  -30.270063,   153.021724
+UR  -30.308602,  153.015545
+
+elevation:   28-574m
+  ------------------------------------
+Add Streams
+Id:  CoffsHarborRanch_Grazing
+Descr: Coffs Harbor Ranching Grazing Data
+type:  GrazingLocation
+
+/Namespaces/SDS_Intro/Streams?Id=WaggaWagga_Grazing
+  

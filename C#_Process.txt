@@ -1,0 +1,24 @@
+New Project
+  .Net 5.0 (I chose console)
+
+NuGet Packs:
+   OSIsoft.OCS Client
+   MS Extensions Configuration
+   MS Extensions Configuration.Json
+
+I didn't like the way StyleCop rules
+ interfered so I removed it from the sample I worked with
+
+AppSettings.json with my endpoints and settings
+
+  {
+  "Resource": "https://staging.osipi.com",
+  "TenantId": "2f792c96-ebc4-45d6-bdea-539fcae8a6a1",
+  "ClientId": "f8a0d905-11fa-45d0-b97a-97a2632c36b4",
+  "ClientSecret": "KG+UfSMm3SYwYiT87/1yFg6yCYYm492WX9q5P9Hlr+A=",
+  "ApiVersion": "v1"
+}
+
+
+Everything defaults to async calls
+

@@ -1,0 +1,2 @@
+Get, accepts index for single item
+patch expects JSON Array[{}]

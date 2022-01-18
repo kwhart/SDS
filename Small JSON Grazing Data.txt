@@ -1,0 +1,11 @@
+[
+{"Time": "9/3/2021 9:45:00 AM","LivestockId": 2,"Longitude": 152.88424,"Latitude": -30.26779,"Altitude": 107.5},
+{"Time": "9/3/2021 10:00:00 AM","LivestockId": 3,"Longitude": 152.8832,"Latitude": -30.27348,"Altitude": 108},
+{"Time": "9/3/2021 10:15:00 AM","LivestockId": 1,"Longitude": 152.88231,"Latitude": -30.27238,"Altitude": 108.5},
+{"Time": "9/3/2021 10:30:00 AM","LivestockId": 2,"Longitude": 152.88425,"Latitude": -30.27008,"Altitude": 109},
+{"Time": "9/3/2021 10:45:00 AM","LivestockId": 3,"Longitude": 152.8835,"Latitude": -30.27373,"Altitude": 109.5},
+{"Time": "9/3/2021 11:00:00 AM","LivestockId": 1,"Longitude": 152.88587,"Latitude": -30.27601,"Altitude": 110},
+{"Time": "9/3/2021 11:15:00 AM","LivestockId": 2,"Longitude": 152.88299,"Latitude": -30.27388,"Altitude": 110.5},
+{"Time": "9/3/2021 11:30:00 AM","LivestockId": 3,"Longitude": 152.8838,"Latitude": -30.27398,"Altitude": 111},
+{"Time": "9/3/2021 11:45:00 AM","LivestockId": 1,"Longitude": 152.88617,"Latitude": -30.27626,"Altitude": 111.5}
+]

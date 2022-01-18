@@ -1,0 +1,12 @@
+startIndex
+endIndex
+boundaryType
+filter
+count
+continuationToken
+startBoundaryType
+endBoundaryType
+reversed
+skip
+index
+searchMode

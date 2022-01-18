@@ -1,0 +1,43 @@
+Historian project
+PiServer->Pi System (data repository)
+SDS is it's own repository, client can talk between PI and SDS
+
+clients that can 
+AF Server...look at your data, drill down menu type system
+  part of Pi system
+Pi System cloud based
+interface means: adapters is preferred terminology
+raw data you want to store can exist in many formats
+one protocol to convert data, adpaters xlate to a format we understand
+  csv, json, opc, xml, hundreds
+
+Not just a port from legacy, ground up, purpose built
+is client post, software as a service
+Why did we build it?
+It's something new, 
+A new client, might use only SDS or only PI or both
+PI on premise product
+Selling software plus SaaS
+WHY:  historian data, no worry about hosting, just interact via cloud
+front door is always REST API
+ways to send data in bulk
+  write a dedicated client in their preferred lang, via http calls
+  most clients will have a nice program to handle I/O to SDS
+ 
+show json, in class, brief
+handle retries, token issues
+  do you handle consulting?  Not really.
+
+how clients are charged, by data, bandwidth, etc...avoid this conversation
+
+most devs have heard of it, coming from PI system
+all students tech savvy
+
+clips that help tell the story of the course
+
+
+
+
+
+  
+
